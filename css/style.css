@@ -52,7 +52,7 @@
     }
     .contents_box1{
         display: inline-block;
-        
+        width:89%;
         height: 10%;
     }
 }
