@@ -1,3 +1,4 @@
+
 .box_img{
     text-align: center;
 }
@@ -16,6 +17,7 @@
 .contents_box1{
     width: 200px;
     height: 260px;
+    margin: 5px;
     border: 1px solid #000;
     padding: 1em;
     text-align: center;
@@ -32,13 +34,26 @@
 
 @media only screen and (max-width: 896px){
     .contents{
-        background-color: aquamarine;
+        display: contents;
+    }
+    .contents_box1{
+        display: inline-block;
     }
 }
 
 
-@media only screen and (max-width: 399px){
+@media only screen and (max-width: 477px){
+    .box_img{
+        width: 100%;
+        text-emphasis: none;
+    }
     .contents{
-        background-color: burlywood;
+        display: contents;
+    }
+    .contents_box1{
+        display: inline-block;
+        width: 89%;
+        height: 10%;
     }
 }
+
